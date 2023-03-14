@@ -15,5 +15,5 @@ jobs:
       - run: npm run build
       - run: npm run build
       - run: | 
-          cd dist
+          cd build
           npm publish
