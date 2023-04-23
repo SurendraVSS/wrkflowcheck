@@ -13,6 +13,5 @@ jobs:
       - run: bats -v
       - run: npm install
       - run: npm run build
-      - run: npm run build
       # - run: | 
       #     npm publish
